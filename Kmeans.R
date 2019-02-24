@@ -20,7 +20,7 @@ plot(1:10, wcss, type = "b",
      main = " Cluster of Iris")
 
 #k-means clusters
-kmeans <- kmeans(df,3, iter.max = 300, nstart= 10)
+kmeans <- kmeans(df,3, iter.max = 200, nstart= 10)
 kmeans
 
 install.packages("cluster")
